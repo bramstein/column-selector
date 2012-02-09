@@ -51,7 +51,7 @@ The following are all examples of using both the column selector and extension f
     // select the cells in the 9th, 19th, 29th, etc, column of #mytable
     $('#mytable td:nth-col(10n-1)');
 
-More examples are available on a separate page which shows [examples of column selectors](examples.html) used with tables containing complicated column and row spans.
+More examples are available on a separate page which shows [examples of column selectors](examples/examples.html) used with tables containing complicated column and row spans.
 
 ## Frequently Asked Questions
 
@@ -65,7 +65,7 @@ The selector engine will first select all `td` elements in your document and pas
 
 Q: Why not just use col and colgroup?
 
-A: There are several reasons you might want to use this plugin over `col` and `colgroup` . First, [col and colgroup are restricted in the CSS attributes they support](http://www.w3.org/TR/CSS21/tables.html#columns) , which may be problematic if you want to do advanced styling. They are limited because `col` and `colgroup` define artificial elements that are not actually there in the source document. This plugin on the other hand returns the actual table cells that make up the column. These cells can then be styled in any way. Second, browser support for those `col` and `colgroup` attributes that can be styled is [problematic](http://www.quirksmode.org/css/columns.html), while all browsers fully support styling table cells.
+A: There are several reasons you might want to use this plugin over `col` and `colgroup` . First, [col and colgroup are restricted in the CSS attributes they support](http://www.w3.org/TR/CSS21/tables.html#columns), which may be problematic if you want to do advanced styling. They are limited because `col` and `colgroup` define artificial elements that are not actually there in the source document. This plugin on the other hand returns the actual table cells that make up the column. These cells can then be styled in any way. Second, browser support for those `col` and `colgroup` attributes that can be styled is [problematic](http://www.quirksmode.org/css/columns.html), while all browsers fully support styling table cells.
 
 Q: What is the difference between using this plugin and using the standard `#mytable tbody &gt; td:nth-child(n)` selector?
 
@@ -73,7 +73,7 @@ A: For tables that have no row or column span attributes this works just fine, a
 
 ## Credits
 
-The algorithm used in the column selector was inspired by the work done by [Matt Kruse of The Javascript Toolbox](http://www.javascripttoolbox.com/) .
+The algorithm used in the column selector was inspired by the work done by [Matt Kruse of The Javascript Toolbox](http://www.javascripttoolbox.com/).
 
 ## Alternatives
 * [jQuery column iterator](http://slackers.se/2009/jquery-column-iterator-plugin/)
