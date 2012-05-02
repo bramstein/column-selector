@@ -1,4 +1,4 @@
-# jQuery column cell selector
+## jQuery column cell selector
 
 This plugin adds a new selector to the jQuery selector API for retrieving table cells by their column index. It supports tables with column and row spans transparently, no matter how complex your table is. The syntax is simple and similar to other jQuery selectors so there is a very small learning curve. The following example shows how to select all the cells in the fourth column of a table.
 
