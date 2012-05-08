@@ -51,7 +51,7 @@ The following are all examples of using both the column selector and extension f
     // select the cells in the 9th, 19th, 29th, etc, column of #mytable
     $('#mytable td:nth-col(10n-1)');
 
-More examples are available on a separate page which shows [examples of column selectors](examples/examples.html) used with tables containing complicated column and row spans.
+More examples are available on a separate page which shows [examples of column selectors](examples/column-selectors.html) used with tables containing complicated column and row spans.
 
 ## Frequently Asked Questions
 
