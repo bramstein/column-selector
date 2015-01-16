@@ -76,4 +76,4 @@ A: For tables that have no row or column span attributes this works just fine, a
 The algorithm used in the column selector was inspired by the work done by [Matt Kruse of The Javascript Toolbox](http://www.javascripttoolbox.com/).
 
 ## Alternatives
-* [jQuery column iterator](http://slackers.se/2009/jquery-column-iterator-plugin/)
+* [jQuery column iterator](http://blog.slackers.se/2009/06/jquery-column-iterator-plugin.html)
